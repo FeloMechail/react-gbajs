@@ -1,4 +1,5 @@
 import cloneDeep from 'lodash.clonedeep';
+import './savedata'
 
 function SRAMSavedata(size) {
 	MemoryView.call(this, new ArrayBuffer(size), 0);
